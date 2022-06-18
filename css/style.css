@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+body{ 
+     font-family: 'Raleway', sans-serif;
+}
+  
+
+
+
+#homesection{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.7),
+    #8a65eee6),url(/images/mf.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.bgBotton{
+    background-color: #FA6F86;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#firstCard:hover img, #secondCard:hover img, #thirdCard:hover img{
+    background-color: rgb(250, 111, 134) !important;
+}

@@ -34,3 +34,123 @@ body{
 #firstCard:hover img, #secondCard:hover img, #thirdCard:hover img{
     background-color: rgb(250, 111, 134) !important;
 }
+
+
+#buttonHover:hover{
+  background-color: #8158C5 !important;
+}
+
+#firstCard, #secondCard, #thirdCard  {
+  border-radius: 20px !important;
+}
+#cards{
+  border-radius: 20px !important;
+  
+}
+
+#carded{
+  border-radius: 25px !important;
+}
+#cardi{
+  border-radius: 25px !important;
+}
+#pricingCard{
+  border-radius: 18px !important;
+}
+
+.midsection{
+  background-image: linear-gradient(to right,rgba(174,96,213,0.7),
+  rgba(138,101,238,0.9)),url(/images/mf.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nextSection{
+  background-image: linear-gradient(to right,rgba(174,96,213,0.7),
+  rgba(138,101,238,0.9)),url(/images/girl.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* used to zoom images */
+#zoom{
+  overflow: hidden;
+  border-radius: 25px;
+  
+}
+
+#zoom img{
+  transition: all 0.8s ease;
+}
+
+#zoom:hover img{
+transform: scale(1.3);
+
+
+}
+
+#curve{
+border-radius: 250px !important;
+}
+#floatingTextarea2{
+border-radius: 30px !important;
+}
+
+i{
+width: 1500px !important;
+}
+
+@media screen and (max-width:576px) {
+#myNav{
+  width: 90% !important;
+}
+}
+
+
+/* #cards{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* body{
+  background-color: antiquewhite;
+} */
+
+.content{
+  position: relative;
+  margin-left: 10px;
+  
+}
+
+.content::after{
+  content: "";
+  position: absolute;
+  width:5px ;
+  height:25px ;
+  border-right: 3px solid white;
+  animation: blink 0.5s infinite ease;
+}
+
+.slide-left{
+  animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+  0%{
+      transform: translate(100px);
+      opacity: 0;
+  }
+
+  100%{
+      transform: translate(0px);
+      opacity: 1;
+  }
+}
+
+p.slide-left{
+  animation-delay: 1s;
+}
